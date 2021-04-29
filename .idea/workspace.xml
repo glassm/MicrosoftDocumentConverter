@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a58e2d43-99e9-4baa-8676-7d0f77926fa5" name="Default Changelist" comment="">
+    <list default="true" id="a58e2d43-99e9-4baa-8676-7d0f77926fa5" name="Default Changelist" comment="Fix some Doc(x) to PDF issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/Now.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +41,10 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="JavaMethodFindUsagesOptions.isIncludeOverloadUsages" value="true" />
     <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change Language" value="JAVA" />
@@ -145,6 +145,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MicrosoftDocumentConverter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.App" />
@@ -163,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PdfConverter" />
+        <item itemvalue="Application.DocConverter" />
         <item itemvalue="Application.XlsxConverter" />
         <item itemvalue="Application.XlsConverter" />
         <item itemvalue="Application.DocxConverter" />
-        <item itemvalue="Application.DocConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +203,7 @@
       <workItem from="1619021039721" duration="2156000" />
       <workItem from="1619023461251" duration="284000" />
       <workItem from="1619531914568" duration="1203000" />
+      <workItem from="1619721906792" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1619022601093</created>
@@ -198,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619022601093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1619722169787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619722169787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Fix some Doc(x) to PDF issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some Doc(x) to PDF issues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,6 +277,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/DocxConverter.java</url>
           <line>173</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
