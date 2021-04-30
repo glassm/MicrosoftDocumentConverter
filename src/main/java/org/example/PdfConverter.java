@@ -18,10 +18,13 @@ public class PdfConverter {
 
     public static void main(String[] args) throws IOException {
         xlsDemo(new FileInputStream("example/test.xls"), new FileOutputStream("example/out/test_xls.pdf"));
+        System.out.println("xls conversion completed");
         xlsxDemo(new FileInputStream("example/test.xlsx"), new FileOutputStream("example/out/test_xlsx.pdf"));
+        System.out.println("xlsx conversion completed");
         docDemo(new FileInputStream("example/resume.doc"), new FileOutputStream("example/out/resume_doc.pdf"));
+        System.out.println("doc conversion completed");
         docxDemo(new FileInputStream("example/resume.docx"), new FileOutputStream("example/out/resume_docx.pdf"));
-
+        System.out.println("docx conversion completed");
 
     }
 

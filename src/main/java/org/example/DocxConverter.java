@@ -142,23 +142,6 @@ public class DocxConverter extends Converter {
             throw new IllegalStateException("Reading standard css", e);
         }
 
-//
-//        // now add css for each used style
-//        Set<CellStyle> seen = new HashSet<>();
-//        for (int i = 0; i < wb.getNumberOfSheets(); i++) {
-//            Sheet sheet = wb.getSheetAt(i);
-//            Iterator<Row> rows = sheet.rowIterator();
-//            while (rows.hasNext()) {
-//                Row row = rows.next();
-//                for (Cell cell : row) {
-//                    CellStyle style = cell.getCellStyle();
-//                    if (!seen.contains(style)) {
-//                        printStyle(style);
-//                        seen.add(style);
-//                    }
-//                }
-//            }
-//        }
     }
 
     public void printBody() {
@@ -167,8 +150,6 @@ public class DocxConverter extends Converter {
             switch(bodyElement.getElementType()) {
                 case PARAGRAPH:
                     XWPFParagraph paragraph = (XWPFParagraph)bodyElement;
-                    System.out.println(paragraph.getText());
-                    System.out.println(paragraph.getElementType().toString());
                     CTPPr pr = paragraph.getCTP().getPPr();
                     if(pr != null && pr.isSetPStyle()) {
                         if (paragraph.getStyle().equalsIgnoreCase("BodyContentStyle")) {
@@ -191,18 +172,5 @@ public class DocxConverter extends Converter {
             }
 
         }
-//        for (XWPFParagraph paragraph : this.xwpfDocument.getParagraphs()) {
-//            System.out.println(paragraph.getText());
-//            System.out.println(paragraph.getElementType().toString());
-//            if (paragraph.getStyle().equalsIgnoreCase("BodyContentStyle")) {
-//                out.format("<div style=\"font-weight: normal; color: black; margin: 5px 0px 5px 0px\">%s</div>%n", paragraph.getText());
-//            } else if (paragraph.getStyle().equalsIgnoreCase("IntroductionStyle")) {
-//                out.format("<div style=\"color: chocolate; font-weight: bolder; font-size: larger;margin: 10px 0px 10px 0px;\">%s</div>%n", paragraph.getText());
-//            }
-//
-//
-//            System.out.println(paragraph.getStyle());
-//
-//        }
     }
 }

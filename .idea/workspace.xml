@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a58e2d43-99e9-4baa-8676-7d0f77926fa5" name="Default Changelist" comment="Fix some Doc(x) to PDF issues">
+    <list default="true" id="a58e2d43-99e9-4baa-8676-7d0f77926fa5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_openxml4j_1_0_beta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicrosoftDocumentConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MicrosoftDocumentConverter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DocxConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DocxConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,19 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MicrosoftDocumentConverter" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.App" />
@@ -203,7 +197,14 @@
       <workItem from="1619021039721" duration="2156000" />
       <workItem from="1619023461251" duration="284000" />
       <workItem from="1619531914568" duration="1203000" />
-      <workItem from="1619721906792" duration="4170000" />
+      <workItem from="1619721906792" duration="4196000" />
+      <workItem from="1619790134056" duration="782000" />
+      <workItem from="1619790956448" duration="585000" />
+      <workItem from="1619791554917" duration="42000" />
+      <workItem from="1619791614749" duration="2358000" />
+      <workItem from="1619799438723" duration="69000" />
+      <workItem from="1619808554665" duration="940000" />
+      <workItem from="1619809517205" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1619022601093</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619722169787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix some Doc(x) to PDF issues">
+      <created>1619730432008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619730432008</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,33 +272,28 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/DocxConverter.java</url>
-          <line>170</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0-sources.jar!/org/apache/poi/xwpf/usermodel/XWPFParagraph.java</url>
           <line>1400</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/DocxConverter.java</url>
-          <line>173</line>
+          <line>154</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java</url>
-          <line>83</line>
+          <line>86</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java</url>
-          <line>58</line>
+          <line>61</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/PdfConverter.java</url>
-          <line>60</line>
+          <line>63</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
